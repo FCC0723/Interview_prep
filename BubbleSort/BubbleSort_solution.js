@@ -1,7 +1,7 @@
-// Requirment: Sort an array of these integers in sorted order from least to greatest.
-// Input: array = [1, 4, 2, 8, 345, 123, 43, 32, 5643, 63, 123, 43, 2, 55, 1, 234, 92];
-// Output: array = [1, 1, 2, 2, 4, 8, 32, 43, 43, 55, 63, 92, 123, 123, 234, 345, 5643];
-array = [1, 4, 2, 8, 345, 123, 43, 32, 5643, 63, 123, 43, 2, 55, 1, 234, 92];
+// Requirment: Sort an array of these integers in ascending or descending order.
+// Input: An array unordered or not yet shorted.
+// Output: The array is ordered based on least to greatest or reversed.
+
 function bubbleSort(array) {
   // Step 1: We have a for loop with array - 1 steps to execute
   for (let i = 0; i <= array.length - 2; i++) {
@@ -18,5 +18,5 @@ function bubbleSort(array) {
   }
   return array;
 }
-
-bubbleSort(array);
+array = [1, 4, 2, 8, 345, 123, 43, 32, 5643, 63, 123, 43, 2, 55, 1, 234, 92];
+console.log(bubbleSort(array));
