@@ -18,9 +18,9 @@ function selectionSort(array) {
 
 /**
  * Swap Two Array Elements
- * @param {*} array 
- * @param {*} index1 
- * @param {*} index2 
+ * @param {number[]} array 
+ * @param {number} index1 
+ * @param {number} index2 
  */
 const swapElements = (array, index1, index2) => {
     let temp = array[index1];
